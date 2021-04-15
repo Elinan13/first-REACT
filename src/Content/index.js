@@ -1,10 +1,19 @@
 import React, {Component} from 'react';
+import {Left} from './left';
+import {Middle} from './middle';
+import {Right} from './right';
 
 export const Content = () => {
     return (
         <div>
-            This is Content
+            <div style={{backgroundColor: 'green'}}>
+                This is Content
+            </div>
+            <Left/>
+            <Middle/>
+            <Right/>
         </div>
+
     )
 };
 
